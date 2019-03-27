@@ -5,13 +5,35 @@
     "description": "一组简单主题。",
     "type": "theme",
     "icon": "mdi-brightness-2",
-    "accentColor": "#9c27b0",
+    "accentColor": "#448aff",
     "themes": [
         {
+            "name": "white-black-auto",
+            "displayName": "白+黑（macOS）",
+            "preview": {"backgroundImage": "linear-gradient(30deg, #333 0%, #333 65%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%)"},
+            "description": "自动根据系统外观设置应用浅色或深色主题",
+            "color": "#333",
+            "style": "styles/white-black-auto.css",
+            "inject": "append"
+        }, {
+            "name": "white-black-time",
+            "displayName": "白+黑（跟随时间）",
+            "preview": {"backgroundImage": "linear-gradient(30deg, #333 0%, #333 65%, rgba(255,255,255,1) 65%, rgba(255,255,255,1) 100%)"},
+            "description": "自动跟随日夜变化改变主题",
+            "color": "#333",
+            "style": "styles/white-black-time.css",
+            "inject": "append"
+        }, {
             "name": "white",
             "displayName": "白",
             "color": "#fff",
             "style": "styles/white.css",
+            "inject": "append"
+        }, {
+            "name": "black",
+            "displayName": "黑",
+            "color": "#333",
+            "style": "styles/black.css",
             "inject": "append"
         }
     ],
