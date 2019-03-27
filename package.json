@@ -1,0 +1,31 @@
+{
+    "name": "xext-theme-simple",
+    "displayName": "简",
+    "version": "1.0.0",
+    "description": "一组简单主题。",
+    "type": "theme",
+    "icon": "mdi-brightness-2",
+    "accentColor": "#9c27b0",
+    "themes": [
+        {
+            "name": "white",
+            "displayName": "白",
+            "color": "#fff",
+            "style": "styles/white.css",
+            "inject": "append"
+        }
+    ],
+    "author": {
+        "name": "Catouse",
+        "email": "catouse@gmail.com"
+    },
+    "publisher": "易软天创",
+    "homepage": "https://github.com/catouse/xext-theme-simple/tree/master/",
+    "repository": {
+        "url": "https://github.com/catouse/xext-theme-simple/",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/catouse/xext-theme-simple/issues"
+    }
+}
