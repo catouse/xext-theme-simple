@@ -1,7 +1,7 @@
 {
     "name": "xext-theme-simple",
     "displayName": "简",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "一组简单主题。",
     "type": "theme",
     "icon": "mdi-brightness-2",
