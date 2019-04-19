@@ -208,8 +208,12 @@ body.daytime-night {
     /* border-right: 1px solid var(--color-border, #eee)!important; */
 }
 
-.daytime-night .app-navbar .nav-item .avatar img {
+
+.app-navbar .nav-item .avatar img {
     filter: brightness(0.2);
+}
+.daytime-night .app-navbar .nav-item .avatar img {
+    filter: none;
 }
 
 .daytime-night .app-navbar .block,
@@ -557,4 +561,121 @@ body.daytime-night {
     }
     .daytime-night .app-show-chats-menu .app-chats > .SplitPane > .Pane1 {border-radius: 0 6px 0 0; }
     .daytime-night .app-show-chats-menu .app-chats > .SplitPane > .Pane2 {opacity: .1;}
+}
+
+/*
+ * Visual Studio 2015 dark style
+ * Author: Nicolas LLOBERA <nllobera@gmail.com>
+ */
+ .daytime-night .markdown-content>pre,
+ .daytime-night .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #1E1E1E;
+    color: #DCDCDC;
+}
+
+.daytime-night .hljs-keyword,
+.daytime-night .hljs-literal,
+.daytime-night .hljs-symbol,
+.daytime-night .hljs-name {
+    color: #569CD6;
+}
+
+.daytime-night .hljs-link {
+    color: #569CD6;
+    text-decoration: underline;
+}
+
+.daytime-night .hljs-built_in,
+.daytime-night .hljs-type {
+    color: #4EC9B0;
+}
+
+.daytime-night .hljs-number,
+.daytime-night .hljs-class {
+    color: #B8D7A3;
+}
+
+.daytime-night .hljs-string,
+.daytime-night .hljs-meta-string {
+    color: #D69D85;
+}
+
+.daytime-night .hljs-regexp,
+.daytime-night .hljs-template-tag {
+    color: #9A5334;
+}
+
+.daytime-night .hljs-subst,
+.daytime-night .hljs-function,
+.daytime-night .hljs-title,
+.daytime-night .hljs-params,
+.daytime-night .hljs-formula {
+    color: #DCDCDC;
+}
+
+.daytime-night .hljs-comment,
+.daytime-night .hljs-quote {
+    color: #57A64A;
+    font-style: italic;
+}
+
+.daytime-night .hljs-doctag {
+    color: #608B4E;
+}
+
+.daytime-night .hljs-meta,
+.daytime-night .hljs-meta-keyword,
+.daytime-night .hljs-tag {
+    color: #9B9B9B;
+}
+
+.daytime-night .hljs-variable,
+.daytime-night .hljs-template-variable {
+    color: #BD63C5;
+}
+
+.daytime-night .hljs-attr,
+.daytime-night .hljs-attribute,
+.daytime-night .hljs-builtin-name {
+    color: #9CDCFE;
+}
+
+.daytime-night .hljs-section {
+    color: gold;
+}
+
+.daytime-night .hljs-emphasis {
+    font-style: italic;
+}
+
+.daytime-night .hljs-strong {
+    font-weight: bold;
+}
+
+/*.hljs-code {
+  font-family:'Monospace';
+}*/
+
+.daytime-night .hljs-bullet,
+.daytime-night .hljs-selector-tag,
+.daytime-night .hljs-selector-id,
+.daytime-night .hljs-selector-class,
+.daytime-night .hljs-selector-attr,
+.daytime-night .hljs-selector-pseudo {
+    color: #D7BA7D;
+}
+
+.daytime-night .hljs-addition {
+    background-color: #144212;
+    display: inline-block;
+    width: 100%;
+}
+
+.daytime-night .hljs-deletion {
+    background-color: #600;
+    display: inline-block;
+    width: 100%;
 }

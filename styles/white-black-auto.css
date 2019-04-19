@@ -208,8 +208,11 @@ body.os-dark-mode {
     /* border-right: 1px solid var(--color-border, #eee)!important; */
 }
 
-.os-dark-mode .app-navbar .nav-item .avatar img {
+.app-navbar .nav-item .avatar img {
     filter: brightness(0.2);
+}
+.os-dark-mode .app-navbar .nav-item .avatar img {
+    filter: none;
 }
 
 .os-dark-mode .app-navbar .block,
@@ -557,4 +560,121 @@ body.os-dark-mode {
     }
     .os-dark-mode .app-show-chats-menu .app-chats > .SplitPane > .Pane1 {border-radius: 0 6px 0 0; }
     .os-dark-mode .app-show-chats-menu .app-chats > .SplitPane > .Pane2 {opacity: .1;}
+}
+
+/*
+ * Visual Studio 2015 dark style
+ * Author: Nicolas LLOBERA <nllobera@gmail.com>
+ */
+ .os-dark-mode .markdown-content>pre,
+ .os-dark-mode .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #1E1E1E;
+    color: #DCDCDC;
+}
+
+.os-dark-mode .hljs-keyword,
+.os-dark-mode .hljs-literal,
+.os-dark-mode .hljs-symbol,
+.os-dark-mode .hljs-name {
+    color: #569CD6;
+}
+
+.os-dark-mode .hljs-link {
+    color: #569CD6;
+    text-decoration: underline;
+}
+
+.os-dark-mode .hljs-built_in,
+.os-dark-mode .hljs-type {
+    color: #4EC9B0;
+}
+
+.os-dark-mode .hljs-number,
+.os-dark-mode .hljs-class {
+    color: #B8D7A3;
+}
+
+.os-dark-mode .hljs-string,
+.os-dark-mode .hljs-meta-string {
+    color: #D69D85;
+}
+
+.os-dark-mode .hljs-regexp,
+.os-dark-mode .hljs-template-tag {
+    color: #9A5334;
+}
+
+.os-dark-mode .hljs-subst,
+.os-dark-mode .hljs-function,
+.os-dark-mode .hljs-title,
+.os-dark-mode .hljs-params,
+.os-dark-mode .hljs-formula {
+    color: #DCDCDC;
+}
+
+.os-dark-mode .hljs-comment,
+.os-dark-mode .hljs-quote {
+    color: #57A64A;
+    font-style: italic;
+}
+
+.os-dark-mode .hljs-doctag {
+    color: #608B4E;
+}
+
+.os-dark-mode .hljs-meta,
+.os-dark-mode .hljs-meta-keyword,
+.os-dark-mode .hljs-tag {
+    color: #9B9B9B;
+}
+
+.os-dark-mode .hljs-variable,
+.os-dark-mode .hljs-template-variable {
+    color: #BD63C5;
+}
+
+.os-dark-mode .hljs-attr,
+.os-dark-mode .hljs-attribute,
+.os-dark-mode .hljs-builtin-name {
+    color: #9CDCFE;
+}
+
+.os-dark-mode .hljs-section {
+    color: gold;
+}
+
+.os-dark-mode .hljs-emphasis {
+    font-style: italic;
+}
+
+.os-dark-mode .hljs-strong {
+    font-weight: bold;
+}
+
+/*.hljs-code {
+  font-family:'Monospace';
+}*/
+
+.os-dark-mode .hljs-bullet,
+.os-dark-mode .hljs-selector-tag,
+.os-dark-mode .hljs-selector-id,
+.os-dark-mode .hljs-selector-class,
+.os-dark-mode .hljs-selector-attr,
+.os-dark-mode .hljs-selector-pseudo {
+    color: #D7BA7D;
+}
+
+.os-dark-mode .hljs-addition {
+    background-color: #144212;
+    display: inline-block;
+    width: 100%;
+}
+
+.os-dark-mode .hljs-deletion {
+    background-color: #600;
+    display: inline-block;
+    width: 100%;
 }
