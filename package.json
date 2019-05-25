@@ -1,11 +1,11 @@
 {
     "name": "xext-theme-simple",
     "displayName": "简",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "一组简单主题。",
     "type": "theme",
     "icon": "mdi-brightness-2",
-    "accentColor": "#448aff",
+    "accentColor": "#232323",
     "themes": [
         {
             "name": "white-black-auto",

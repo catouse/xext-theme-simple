@@ -21,7 +21,9 @@ body.os-dark-mode {
     background: rgba(0, 0, 0, .5);
     color: #fff;
 }
-
+body.os-dark-mode:not(.os-mac) {
+    background: rgba(0, 0, 0, .85);
+}
 .os-dark-mode .primary {
     background-color: var(--color-primary, #9c27b0) !important;
     border-color: var(--color-primary, #9c27b0) !important;
@@ -560,6 +562,33 @@ body.os-dark-mode {
     }
     .os-dark-mode .app-show-chats-menu .app-chats > .SplitPane > .Pane1 {border-radius: 0 6px 0 0; }
     .os-dark-mode .app-show-chats-menu .app-chats > .SplitPane > .Pane2 {opacity: .1;}
+}
+
+.os-dark-mode .app-login {background: var(--color-content-back, #f1f1f1);}
+.os-dark-mode .group-list .heading > .icon,
+.os-dark-mode .group-list .heading > .title {color: var(--color-primary, #9c27b0) !important;}
+.os-dark-mode .box {
+    background-color: var(--color-back, #f1f1f1) !important;
+    color: var(--color-fore, #f1f1f1) !important;
+}
+.os-dark-mode .arrow-bottom:before {border-color: var(--color-back, #f1f1f1) transparent transparent transparent;}
+
+.os-dark-mode .emoji-dialog {
+    background-color: var(--color-back, #f1f1f1);
+}
+.os-dark-mode .emoji-dialog .emoji-dialog-header {
+    background: rgba(255,255,255,.1);
+}
+.os-dark-mode .emoji-dialog .emoji-dialog-header li.active {
+    background: var(--color-active-back, rgba(255, 255, 255, .75));
+}
+.os-dark-mode .emoji-dialog .emoji-search {
+    background: rgba(255,255,255,.05);
+    color: var(--color-fore, #f1f1f1) !important;
+    border-color: transparent;
+}
+.os-dark-mode .emoji-dialog .emoji-row .emoji:hover {
+    background-color: var(--color-back, #f1f1f1);
 }
 
 /*

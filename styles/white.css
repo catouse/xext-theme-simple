@@ -18,7 +18,9 @@ body {
     --color-gray-pale: #f1f1f1;
     background: rgba(220, 220, 220, .5);
 }
-
+body:not(.os-mac) {
+    background: rgba(220, 220, 220, .8);
+}
 .page {
     background: transparent;
 }

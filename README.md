@@ -22,7 +22,7 @@ https://catouse.github.io/xext-theme-simple/
 
 ## 下载使用
 
-1. [下载本主题扩展文件 `xext-theme-simple.zip`](https://github.com/catouse/xext-theme-simple/releases/download/v1.0.1/xext-theme-simple.zip)；
+1. [下载本主题扩展文件 `xext-theme-simple.zip`](https://github.com/catouse/xext-theme-simple/releases/download/v1.0.2/xext-theme-simple.zip)；
 2. 打开喧喧应用，依次打开 “**应用 → 扩展**” 应用界面，点击右上角安装本地扩展按钮，选择所下载的扩展文件（`xext-theme-simple.zip`）安装提示进行安装；
 3. 依次打开 “**应用 → 主题**” 应用界面，点击并使用当前主题。
 
